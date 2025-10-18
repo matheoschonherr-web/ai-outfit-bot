@@ -1,1 +1,85 @@
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Outfit Bot – Dein Style Coach</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #111, #222);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 40px;
+      font-size: 32px;
+      font-weight: bold;
+      background: #1a1a1a;
+      color: #7c3aed;
+      letter-spacing: 2px;
+    }
+    main {
+      margin-top: 40px;
+    }
+    .upload {
+      background: #333;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      margin: auto;
+      max-width: 500px;
+    }
+    input[type="file"] {
+      margin: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #7c3aed;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #a78bfa;
+    }
+    .ideas {
+      margin-top: 40px;
+      padding: 20px;
+      background: #2a2a2a;
+      border-radius: 10px;
+      width: 85%;
+      margin: 40px auto;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>AI Outfit Bot 👗</header>
+  <main>
+    <div class="upload">
+      <h3>Lade deine Kleidungsstücke hoch</h3>
+      <input type="file" multiple accept="image/*">
+      <button>Outfit generieren</button>
+    </div>
+
+    <div class="ideas">
+      <h3>✨ Outfit Ideen</h3>
+      <p>Streetwear Look, Casual Style, oder Sommer Outfit?</p>
+      <p>Frag den Chat unten nach Ideen!</p>
+    </div>
+  </main>
+
+  <footer>made by matheoschonherr-web 💜</footer>
+</body>
+</html>
